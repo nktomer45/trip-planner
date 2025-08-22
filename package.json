@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@fastify/cors": "^8.4.0",
-    "@fastify/mongodb": "^6.2.0",
+    "@fastify/mongodb": "^9.0.2",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
