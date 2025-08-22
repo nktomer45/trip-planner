@@ -25,7 +25,8 @@ const start = async () => {
         });
         // MongoDB connection
         await fastify.register(mongodb_1.default, {
-            url: process.env.MONGODB_URL //|| 'mongodb://localhost:27017/tripdb'
+            url: process.env.MONGODB_URL, //|| 'mongodb://localhost:27017/tripdb'
+            database: "tripdb",
         });
         // Auth plugin
         await fastify.register(auth_1.default);
