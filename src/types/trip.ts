@@ -1,5 +1,6 @@
+import { ObjectId } from 'mongodb';
 export interface TripPlan {
-  _id?: string;
+  _id?: ObjectId;
   title: string;
   destination: string;
   days: number;
@@ -22,7 +23,7 @@ export interface UpdateTripRequest {
 }
 
 export interface TripResponse {
-  id: string;
+  id: ObjectId;
   title: string;
   destination: string;
   days: number;
